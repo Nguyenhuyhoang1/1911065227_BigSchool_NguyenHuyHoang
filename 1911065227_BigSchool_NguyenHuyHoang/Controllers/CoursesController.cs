@@ -97,7 +97,7 @@ namespace _1911065227_BigSchool_NguyenHuyHoang.Controllers
                 Place = course.Place,
                 Heading = "Edit Course",
                 Id = course.Id
-
+                
             };
             return View("Create", viewModel);
         }
